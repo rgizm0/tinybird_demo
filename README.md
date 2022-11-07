@@ -22,4 +22,13 @@ The following python packages are required:
 tinybird-cli
 
 # Getting the data loaded to Tinybird
-Use the Tinybird cli[https://www.tinybird.co/docs/cli.html]  to deploy this project. 
+Use the [Tinybird cli](https://www.tinybird.co/docs/cli.html) to deploy this project.
+
+```bash
+tb push --push-deps
+```
+```bash
+tb push datasources/police_street.datasource
+tb push datasources/police_outcomes.datasource
+```
+
