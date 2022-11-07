@@ -1,0 +1,15 @@
+NODE same_crime_id
+SQL >
+
+    %
+    SELECT os.month, os.falls_within as force, cs.outcome_type, os.crime_type
+    --, count(*)
+    FROM police_street_clean os
+    join police_outcomes_clean cs on cs.crime_id = os.crime_id
+    {% if defined(crime_id) %}
+          WHERE cs.crime_id = {{ String(crime_id) }}
+        {% end %}
+    --group by os.month, os.force, os.outcome_type, cs.crime_type
+
+
+

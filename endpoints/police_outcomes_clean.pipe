@@ -1,0 +1,7 @@
+NODE police_outcomes_pipe_notnull
+SQL >
+
+    SELECT * FROM police_outcomes
+    where month is not null
+
+

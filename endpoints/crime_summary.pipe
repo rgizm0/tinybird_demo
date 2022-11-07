@@ -1,0 +1,12 @@
+NODE crime_by_month_force
+SQL >
+
+    %
+    SELECT month, falls_within as force, crime_type, count(*) 
+    FROM police_street_clean
+    {% if defined(force) %}
+          WHERE falls_within = {{ String(force) }}
+        {% end %}
+    group by month, force, crime_type
+
+

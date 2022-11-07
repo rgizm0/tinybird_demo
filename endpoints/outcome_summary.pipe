@@ -1,0 +1,12 @@
+NODE outcome_by_month_force
+SQL >
+
+    %
+    SELECT month, falls_within as force, outcome_type, count(*)
+    FROM police_outcomes_clean po 
+    {% if defined(outcome_type) %}
+          WHERE outcome_type = {{ String(outcome_type) }}
+        {% end %}
+    group by month, force, outcome_type
+
+

@@ -1,0 +1,10 @@
+{
+    "host": "https://api.tinybird.co",
+    "id": "01bf31fe-ed24-4d24-8424-faed45475270",
+    "name": "bobspace",
+    "scope": "admin",
+    "token": "p.eyJ1IjogIjAxYmYzMWZlLWVkMjQtNGQyNC04NDI0LWZhZWQ0NTQ3NTI3MCIsICJpZCI6ICIyZDdjOGM1Ni0wYWM4LTQzNWUtYmFmNC00ZjdkZTI4ZWRjYzkifQ.YNHylpcE8OqO9bI_0hHhMscDDxP7KF5AkTVD407K0V0",
+    "tokens": {
+        "https://api.tinybird.co": "p.eyJ1IjogIjAxYmYzMWZlLWVkMjQtNGQyNC04NDI0LWZhZWQ0NTQ3NTI3MCIsICJpZCI6ICIyZDdjOGM1Ni0wYWM4LTQzNWUtYmFmNC00ZjdkZTI4ZWRjYzkifQ.YNHylpcE8OqO9bI_0hHhMscDDxP7KF5AkTVD407K0V0"
+    }
+}

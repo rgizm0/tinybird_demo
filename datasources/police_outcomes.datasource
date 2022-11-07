@@ -1,0 +1,14 @@
+DESCRIPTION >
+    Generated from fixtures/police_outcomes.csv
+
+SCHEMA >
+    `crime_id` String,
+    `month` String,
+    `reported_by` String,
+    `falls_within` String,
+    `longitude` Nullable(Float32),
+    `latitude` Nullable(Float32),
+    `location` String,
+    `lsoa_code` Nullable(String),
+    `lsoa_name` Nullable(String),
+    `outcome_type` String

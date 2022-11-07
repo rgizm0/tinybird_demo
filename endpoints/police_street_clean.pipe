@@ -1,0 +1,7 @@
+NODE police_street_notnull
+SQL >
+
+    SELECT * FROM police_street
+    where month is not null
+
+
