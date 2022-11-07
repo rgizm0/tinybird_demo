@@ -13,26 +13,16 @@ Tinybird Pipes
 - police street crime crlean
 - crime summary
 - outcome summary
-- cloed crime outcomes
+- closed crime outcomes
 
-
-Getting started
+# Getting started
 Requirements
 The following python packages are required:
 
-boto3
 tinybird-cli
-streamlit
-pandas
-numpy
-watchdog
-kafka-python
-python-dotenv
-certifi
-Installation
-Install the requirements with
 
-pip install -r requirements.txt
+#Installation
+
 
 Setup
 AWS (Optiona)
