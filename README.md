@@ -27,6 +27,7 @@ Use the [Tinybird cli](https://www.tinybird.co/docs/cli.html) to deploy this pro
 ```bash
 tb push --push-deps
 ```
+Data can now be loaded to the newly created tables
 ```bash
 tb push datasources/police_street.datasource
 tb push datasources/police_outcomes.datasource
