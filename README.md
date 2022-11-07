@@ -1,7 +1,6 @@
 # tinybird_demo
 This is a demo for Tinybird.
 
-What's included
 This demo includes:
 
 ## Datasources
