@@ -29,8 +29,10 @@ tb push --push-deps
 ```
 Data can now be loaded to the newly created tables
 ```bash
-tb push datasources/police_street.datasource
-tb push datasources/police_outcomes.datasource
+tb datasource append police_street datasources/fixtures/police_street.csv
+```
+```bash
+tb datasource append police_outcomes datasources/fixtures/police_outcomes.csv
 ```
 # The dataflow
 This dataflow demonstrates the 3 typical steps of data analysis
